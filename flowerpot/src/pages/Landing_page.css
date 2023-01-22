@@ -1,8 +1,99 @@
 #second {
   display: flex;
   justify-content: space-around;
+  /* border: 1px solid red; */
+  max-width: 95%;
+  margin: auto;
 }
-#second > div {
-  width: "127px";
-  height: "53px";
+#second img {
+  width: 107px;
+  height: 43px;
+  border: 1px black;
+}
+#btn {
+  background-color: red;
+  margin: 0%;
+}
+#second a {
+  position: relative;
+  text-decoration: none;
+  border: 1px lightcoral;
+}
+
+#second a:hover::after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+  border: 1px solid black;
+}
+#third {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 10px;
+}
+#third > button {
+  background-color: #65388b;
+  color: white;
+  height: 42px;
+  width: 110px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+}
+#third input {
+  width: 45%;
+  height: 35px;
+  border-color: lightblue;
+  margin-left: 50px;
+}
+.logo > img {
+  border-radius: 18px;
+}
+.sr {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  height: 10%;
+}
+.sr > div > a > img {
+  height: 30px;
+  align-items: center;
+}
+.sr > div {
+  margin-left: 20px;
+  text-align: center;
+}
+.logo > img {
+  width: 80%;
+  max-height: 70px;
+}
+.cl {
+  display: flex;
+  text-align: center;
+}
+.cl > div {
+}
+#flowers {
+  display: flex;
+  max-width: 95%;
+  margin: auto;
+  justify-content: space-around;
+}
+#image1 {
+  width: 100%;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: auto;
+  padding-left: 1.5%;
+}
+#image1 > img {
+  padding-right: 2%;
+  margin-right: 2%;
 }
