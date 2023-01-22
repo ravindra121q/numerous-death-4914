@@ -3,11 +3,3 @@ a {
   background-color: transparent;
   text-decoration: none;
 }
-#second {
-  display: flex;
-  justify-content: space-around;
-}
-#second > div {
-  width: "127px";
-  height: "53px";
-}
