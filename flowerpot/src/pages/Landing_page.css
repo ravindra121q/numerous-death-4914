@@ -8,7 +8,7 @@
 #second img {
   width: 107px;
   height: 43px;
-  border: 1px black;
+  /* border: 1px black; */
 }
 #btn {
   background-color: red;
@@ -77,13 +77,13 @@
   display: flex;
   text-align: center;
 }
-.cl > div {
-}
+
 #flowers {
   display: flex;
   max-width: 95%;
   margin: auto;
   justify-content: space-around;
+  text-align: center;
 }
 #image1 {
   width: 100%;
@@ -96,4 +96,89 @@
 #image1 > img {
   padding-right: 2%;
   margin-right: 2%;
+}
+
+#flowers1 {
+  /* border: 1px solid red; */
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+#flowers1 > div {
+  width: 95%;
+}
+#flowers1 > div > a > img {
+  height: 60%;
+  width: 80%;
+}
+.cc {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.cc > div > img {
+  padding-left: 10px;
+}
+.trending {
+  display: flex;
+  /* border: 1px solid red; */
+  margin: auto;
+  display: block;
+  display: flex;
+  text-align: center;
+  display: block;
+  display: flex;
+}
+
+.trending img {
+  display: inline-block;
+  height: auto;
+  max-width: 80%;
+}
+.g {
+  padding: 65px;
+  margin: auto;
+}
+.new {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding-left: 3%;
+}
+.new > div > img {
+  height: 60%;
+}
+.cc {
+  padding-left: 0%;
+  padding-right: 13%;
+}
+.customer {
+  background-color: #f5f5f5;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 5%;
+  /* border: 1px solid red; */
+  max-width: 85%;
+  justify-content: space-between;
+  text-align: center;
+  height: 150px;
+}
+.customer > div > img {
+  height: 90%;
+}
+/* .customer > div > p:nth-child() {
+  font-weight: bold;
+} */
+.footer {
+  padding: 40px;
+  color: green;
+  background-color: #65388b;
+  margin-top: 8%;
+  display: flex;
+}
+.footer > div {
+  padding-left: 8%;
 }

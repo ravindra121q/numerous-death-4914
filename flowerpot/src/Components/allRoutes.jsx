@@ -1,7 +1,18 @@
-import React from 'react'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { AdminPage } from "../pages/AdminPage";
 
-export const allRoutes = () => {
+import LandingPage from "../pages/LandingPage";
+import { ProdctPage } from "../pages/ProductPage";
+
+export const AllRoutes = () => {
   return (
-    <div>allRoutes</div>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/admin" element={<AdminPage />}></Route>
+        <Route path="/pro" element={<ProdctPage />}></Route>
+      </Routes>
+    </>
+  );
+};
